@@ -57,13 +57,13 @@ p{
     color: var(--White);
 }
 
-span{
+.rating-container span {
     font-size: 0.6rem;
-    border-radius: 65%;
-    padding: 0.8rem;    
+    border-radius: 50%; 
+    padding: 0.8rem;
     background-color: var(--VeryDarkBlue);
     cursor: pointer;
-    transition: 1s;
+    transition: 0.3s ease-in-out;
 }
 
 button{
