@@ -2,6 +2,7 @@ const spans = document.querySelectorAll('span');
 const submitBtn = document.querySelector('button');
 const score = document.getElementById('score');
 const ratingMessage = document.querySelector('.rating-state-end');
+const mainParagraph = document.getElementById('main-paragraph');
 let spanValue = 0;
 
 const showRating = (spanValue)=>{
@@ -22,7 +23,7 @@ spans.forEach((span)=>{
 submitBtn.addEventListener('click', ()=>{
     
     if (spanValue <= 0){
-        alert('Enter a number')
+        alert('Select a number');
         return
     }
 
