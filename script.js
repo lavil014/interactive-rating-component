@@ -23,7 +23,7 @@ spans.forEach((span)=>{
 submitBtn.addEventListener('click', ()=>{
     
     if (spanValue <= 0){
-        alert('Select a number');
+        alert('Select a score');
         return
     }
 
